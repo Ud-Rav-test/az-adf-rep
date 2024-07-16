@@ -1,0 +1,9 @@
+{
+	"name": "ud-test-adf",
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "81da602f-fce5-4480-9122-1fde7351e4a6",
+		"tenantId": "827f0b7e-9b43-47a3-b37e-4c948d3bc553"
+	}
+}
