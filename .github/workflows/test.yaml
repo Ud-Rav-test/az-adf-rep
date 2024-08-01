@@ -1,8 +1,21 @@
 name: Testing
 
 on:
-    push:
-        branches: [main]
+    workflow_dispatch:
+     inputs:
+        tgt_env:
+            description: Enviornment
+            required: true
+            type: environment
+        action:
+            description: Action
+            options:
+                - create
+                - create and Copy 1
+                - create and copy 2
+            type: choice
+        logLevel:
+            description: 'Log level'
 
 jobs:
     testing:
